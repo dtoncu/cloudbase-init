@@ -36,6 +36,8 @@ Config options:
     * netbios_host_name_compatibility (bool: True)
 
 .. warning:: This may require a system restart.
+.. warning:: On Windows 10, hostname could not be set in unattended phase.
+In this case, the plugin will fail with WindowsCloudbaseInitException exception.
 
 
 Creating user *(main)*
